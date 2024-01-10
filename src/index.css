@@ -5,6 +5,7 @@
 }
 main {
 	height: 100vh;
+	background-color: midnightblue;
 }
 .bg {
 	height: 100%;
