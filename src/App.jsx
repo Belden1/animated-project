@@ -1,16 +1,21 @@
 import { useEffect } from 'react';
 import './App.css';
-import CLOUDS from 'vanta/src/vanta.clouds';
+// import CLOUDS from 'vanta/src/vanta.clouds';
+import TOPOLOGY from 'vanta/src/vanta.topology';
 
 function App() {
 	useEffect(() => {
-		CLOUDS({
+		TOPOLOGY({
 			el: '#vanta',
 			mouseControls: true,
 			touchControls: true,
 			gyroControls: false,
 			minHeight: 200.0,
-			minWidth: 200.0
+			minWidth: 200.0,
+			scale: 1.0,
+			scaleMobile: 1.0,
+			color: 0x1b9191,
+			backgroundColor: 0x101111
 		});
 	});
 
