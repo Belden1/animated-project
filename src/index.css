@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	height: 100vh;
+}
+.bg {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 2px 5px black;
+}
+h1 {
+	font-size: 90px;
+}
+p {
+	width: 400px;
+}
